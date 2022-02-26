@@ -1,0 +1,86 @@
+h1, h2, h3, h4, h5, h6, button, text, p, label, input, body, div{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div.box-cadastro, .style-field input, .style-field button, .style-field select {
+    border-radius: 2px;
+}
+
+.style-field input, .style-field select {
+    border: 1px solid #b6b6b6;
+}
+
+h1{
+    text-align: center;
+    color: #066a75;
+    font-size: 36px;
+    margin-bottom: 9px;
+}
+
+.hr_line { 
+    margin: 0px 0px 20px;
+    height: 2px;
+    border: 0;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #96b4b8))
+}
+
+.box-cadastro {
+    border: 1px solid #bbd2d5;
+    width: 390px;
+    margin: 115px auto;
+    padding: 15px 15px 75px;
+    background: #f7f7f7
+}
+
+.box-cadastro .style-field input {
+    width: 93%;
+    margin: 0px auto 15px;
+    display: block;
+    height: 32px;
+    padding: 0px 8px;
+    font-style: italic;
+    box-shadow: inset 0 0 3px #bab8b8;
+}
+
+.box-cadastro .style-field select {
+    width: 97.5%;
+    margin: 0px auto 15px;
+    display: block;
+    height: 32px;
+    padding: 0px 8px;
+    font-style: italic;
+    box-shadow: inset 0 0 3px #bab8b8;
+}
+
+.box-cadastro .style-field label {
+    width: 98%;
+    margin: 10px auto 0px;
+    display: block;
+    height: 20px;
+    font-size: 13px;
+    color: #546d70
+}
+
+.box-cadastro .style-field input#datanascimento {
+    height: 32px;
+}
+
+.box-cadastro .style-field button {
+    width: 97.5%;
+    margin: auto;
+    display: block;
+    background: #3d9db3;
+    border: none;
+    padding: 6px;
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 1px 2px #272727;
+}
+
+.box-cadastro .style-field button:hover{
+    background: #276472;
+}
+
+
+
+

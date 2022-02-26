@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistema de RH QI</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box-cadastro" >
+            <div>
+                 <h1>Cadastro de Funcionário</h1>
+            </div>
+            <div>
+                <hr class="hr_line" />
+            </div>
+            <div class="style-field">
+                <form>
+                    <label for="nome">Seu nome</label>
+                    <input id="nome" type="text" placeholder="nome" required />
+
+                    <label for="email">Seu e-mail</label>
+                    <input id="email" type="email" placeholder="contato@dominio.com" required />
+
+                    <label for="datanascimento">Sua data de nascimento</label>
+                    <input id="datanascimento" type="date" required />
+
+                    <label for="salario">Seu salario</label>
+                    <input id="salario" type="number" required />
+
+                    <label for="cargo">Seu cargo</label>
+                    <select id="cargo" name="cargo" required>
+                        <option value="" >Selecione...</option>
+                        <option value="gerente">Gerente</option>
+                        <option value="analista">Analista de Sistemas</option>
+                        <option value="desenvolvedor">Desenvolvedor</option>
+                        <option value="dba">DBA</option>
+                    </select>
+
+                    <button type="submit">Gravar</button>
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>
